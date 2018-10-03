@@ -6,3 +6,6 @@
 
 Deployment
 - heroku create theNameYouWant
+- add postbuild in scripts : "heroku-postbuild": "yarn run build"
+- add engines version in package json
+
